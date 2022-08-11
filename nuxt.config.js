@@ -11,7 +11,7 @@ export default {
   */
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'portfolio-nuxt',
+    title: 'alexriley.me | Alex Riley\'s Portfolio',
     htmlAttrs: {
       lang: 'en',
     },
@@ -21,7 +21,12 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true},
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'}
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

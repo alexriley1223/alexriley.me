@@ -5,7 +5,7 @@
         <!-- Nav Flex Row -->
         <div class="flex justify-between items-center">
           <!-- Alex Riley Home -->
-          <a class="font-bold title-animation" href="/">alexriley.me</a>
+          <a class="font-bold link-underline" href="/">alexriley.me</a>
 
           <!-- Nav Items -->
           <ul class="flex flex-row space-x-8">

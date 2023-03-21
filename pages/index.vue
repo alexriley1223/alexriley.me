@@ -83,7 +83,7 @@
             :image="require('~/assets/img/sites/whirleypop.png')"
           >
             <p>
-              I took over post-launch development on <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://stallardandschuh.com/" target="_blank">Whirley Pop Shop's website</a>. I have implemented <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://zonos.com/" target="_blank">Zonos</a>, a global checkout system and <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://www.attentive.com/" target="_blank">Attentive</a>, an SMS marketing platform with e-commerce journeys. I have also developed and implemented a full-fledged Rewards Program to improve customer retention and boost sales. I also lead development on their other e-commerce platforms: <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://www.wfarms.com/" target="_blank">Wabash Valley Farms</a> and <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://popcornpopper.com/" target="_blank">Popcorn Popper</a>.
+              I took over post-launch development on <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://whirleypopshop.com/" target="_blank">Whirley Pop Shop's website</a>. I have implemented <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://zonos.com/" target="_blank">Zonos</a>, a global checkout system and <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://www.attentive.com/" target="_blank">Attentive</a>, an SMS marketing platform with e-commerce journeys. I have also developed and implemented a full-fledged Rewards Program to improve customer retention and boost sales. I also lead development on their other e-commerce platforms: <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://www.wfarms.com/" target="_blank">Wabash Valley Farms</a> and <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://popcornpopper.com/" target="_blank">Popcorn Popper</a>.
             </p>
           </ElementsProjectCard>
         </div>
@@ -94,10 +94,41 @@
     <section class="bg-[#fcfcfc] border-b border-[#f7f7f7] py-12">
       <div class="container mx-auto px-4 md:px-2 lg:px-0">
         <h2 class="text-center font-semibold mb-4 text-4xl">Side Projects</h2>
-        <p class="text-center max-w-xl mx-auto">Programming is my passion - in my free time I love exploring new technologies and ideas. These are available on my <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://github.com/alexriley1223" target="_blank">GitHub</a>.</p>
+        <p class="text-center max-w-xl mx-auto">Programming is my passion - in my free time I love exploring new technologies and ideas. These are available on my <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://github.com/alexriley1223" target="_blank">GitHub</a> alongside multiple others.</p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+          <ElementsProjectCard
+            background-hex="#F9D7D0"
+            title="The Trendy Artisan"
+            :skills="['Laravel', 'Tailwind', 'Vue', 'Paypal', 'Alpine.js']"
+            :image="require('~/assets/img/sites/trendyartisan.png')"
+          >
+            <p>
+              I developed <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://www.thetrendyartisan.com/" target="_blank">The Trendy Artisan</a> for my sister-in-law as a full-fledged e-commerce solution to transition her away from Facebook and into her own space. This includes a custom dashboard with product, category, orders, and customer management. Products are managed with a custom-built attribute system to allow for infinite product combinations to be made easy. All of her customers are satisfied and I have new features currently in development.
+            </p>
+          </ElementsProjectCard>
 
+          <ElementsProjectCard
+            background-hex="#636363"
+            title="The Queue"
+            :skills="['Laravel', 'Sanctum', 'Tailwind', 'Vue', 'Spotify API']"
+            :image="require('~/assets/img/sites/queue.png')"
+          >
+            <p>
+              <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://queue.alexriley.me/" target="_blank">The Queue</a> is a website idea that is in its third iteration that I originally came up with in college. It is a Vue SPA integrated with Sanctum for API authentication and the Spotify API for song searching and queue manipulation. It allows for users to add songs to a user's queue with the use of their party code - perfect for DJs who get multiple song requests to keep everyone satisfied.
+            </p>
+          </ElementsProjectCard>
+
+          <ElementsProjectCard
+            background-hex="#7046FF"
+            title="Bishop Discord Bot"
+            :skills="['Node', 'Sequelize', 'Discord/Discord.JS', 'Riot Games API', 'Axios']"
+            :image="require('~/assets/img/sites/bishop.png')"
+          >
+            <p>
+              <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://www.thetrendyartisan.com/" target="_blank">Bishop</a> is a Discord bot built in Node on top of the <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://discord.js.org/#/" target="_blank">Discord.JS</a> library. It is an asynchronous, modulated bot to handle commands, Discord events, scheduled jobs, and custom database models. It is built to my specification but is easily manipulatable. Currently, I have implemented song streaming from YouTube with full playback functionality, a points system with casino minigames and mock stocks, and a bit of integration with the League of Legends API.
+            </p>
+          </ElementsProjectCard>
         </div>
       </div>
     </section>
@@ -121,7 +152,7 @@
     <section id="contact" class="my-8 lg:my-12 b-[#fcfcfc] border-b border-[#f7f7f7]">
       <div class="container mx-auto px-4">
         <span class="block text-center text-3xl lg:text-4xl mb-3">🙋‍♂️</span>
-        <h3 class="text-center text-4xl lg:text-5xl font-bold mb-6">Let's Chat</h3>
+        <h2 class="text-center font-semibold mb-4 text-4xl">Let's Chat</h2>
         <p class="text-center mb-8 w-8/12 lg:w-5/12 mx-auto">New opportunities, tech chat, or if you just want to say hello - my inbox is always open! I will always reply
           as soon as possible.
         </p>

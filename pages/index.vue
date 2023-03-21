@@ -17,7 +17,7 @@
     </section>
 
     <!-- Projects -->
-    <section id="projects" class="bg-[#fcfcfc] py-12">
+    <section id="projects" class="bg-white py-12">
 
       <div class="container mx-auto px-4 md:px-2 lg:px-0">
         <h2 class="text-center font-semibold mb-4 text-4xl">Professional Projects</h2>
@@ -91,7 +91,7 @@
 
     </section>
 
-    <section class="bg-[#fcfcfc] border-b border-[#f7f7f7] py-12">
+    <section class="bg-white border-b border-[#f7f7f7] py-12">
       <div class="container mx-auto px-4 md:px-2 lg:px-0">
         <h2 class="text-center font-semibold mb-4 text-4xl">Side Projects</h2>
         <p class="text-center max-w-xl mx-auto">Programming is my passion - in my free time I love exploring new technologies and ideas. These are available on my <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://github.com/alexriley1223" target="_blank">GitHub</a> alongside multiple others.</p>
@@ -133,23 +133,66 @@
       </div>
     </section>
 
-    <!-- Personal About -->
-    <section class="my-8 lg:my-12 bg-white border-b border-[#f7f7f7]">
-      <div class="container mx-auto px-4">
-        <div class="flex justify-between">
-          <div>
-            <p>picture here</p>
-          </div>
-          <div>
-            <h3>Who is Alex Riley?</h3>
-            <p></p>
-          </div>
+    <!-- What I Offer -->
+    <section class="my-8 lg:my-12 bg-[#fcfcfc] border-b border-[#f7f7f7]">
+      <div class="container mx-auto px-4 md:px-2 lg:px-06">
+        <h2 class="text-center font-semibold mb-4 text-4xl">What I Can Do For You</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 w-full md:w-8/12 mx-auto">
+        
+          <ElementsTableCard
+          title="Full Stack Web Development"
+          description="Front-to-back development built to your specification with modern web languages - from landing pages to e-commerce platforms"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-code-slash text-black" viewBox="0 0 16 16">
+                <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+            </svg>
+          </ElementsTableCard>
+
+          <ElementsTableCard
+          title="SEO, Analytics, and Web Security"
+          description="Technical SEO, Google Analytics/Statcounter, page speed audits, and implementation of web conversion platforms"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-search text-black" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+          </ElementsTableCard>
+
+          <ElementsTableCard
+          title="Web Consultation"
+          description="Help with guidance and direction for your next web project. Developer code reviews too!"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-person-video text-black" viewBox="0 0 16 16">
+              <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+              <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2Zm10.798 11c-.453-1.27-1.76-3-4.798-3-3.037 0-4.345 1.73-4.798 3H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-1.202Z"/>
+            </svg>
+          </ElementsTableCard>
+
+          <ElementsTableCard
+          title="Server Management"
+          description="Basic server setup or maintenance on existing web hosting setups: Apache, Nginx, PM2"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-database-lock text-black" viewBox="0 0 16 16">
+              <path d="M13 5.698a4.92 4.92 0 0 1-.904.525C11.022 6.711 9.573 7 8 7s-3.022-.289-4.096-.777A4.92 4.92 0 0 1 3 5.698V7c0 .374.356.875 1.318 1.313C5.234 8.729 6.536 9 8 9c.666 0 1.298-.056 1.876-.156-.43.31-.804.693-1.102 1.132A12.31 12.31 0 0 1 8 10c-1.573 0-3.022-.289-4.096-.777A4.92 4.92 0 0 1 3 8.698V10c0 .374.356.875 1.318 1.313C5.234 11.729 6.536 12 8 12h.027a4.548 4.548 0 0 0-.017.8A1.9 1.9 0 0 0 8 13c-1.573 0-3.022-.289-4.096-.777A4.916 4.916 0 0 1 3 11.698V13c0 .374.356.875 1.318 1.313C5.234 14.729 6.536 15 8 15c0 .363.097.704.266.997C8.178 16 8.089 16 8 16c-1.573 0-3.022-.289-4.096-.777C2.875 14.755 2 14.007 2 13V4c0-1.007.875-1.755 1.904-2.223C4.978 1.289 6.427 1 8 1s3.022.289 4.096.777C13.125 2.245 14 2.993 14 4v4.256a4.493 4.493 0 0 0-1.753-.249C12.787 7.654 13 7.289 13 7V5.698Zm-8.682-3.01C3.356 3.124 3 3.625 3 4c0 .374.356.875 1.318 1.313C5.234 5.729 6.536 6 8 6s2.766-.27 3.682-.687C12.644 4.875 13 4.373 13 4c0-.374-.356-.875-1.318-1.313C10.766 2.271 9.464 2 8 2s-2.766.27-3.682.687Z"/>
+              <path d="M9 13a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2Zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1Z"/>
+            </svg>
+          </ElementsTableCard>
+
+
         </div>
       </div>
     </section>
 
+    <!-- Technical Experience -->
+    <section class="my-8 lg:my-12 bg-white border-b border-[#f7f7f7]">
+    </section>
+
+    <!-- About Me -->
+    <section class="my-8 lg:my-12 bg-[#fcfcfc] border-b border-[#f7f7f7]">
+    </section>
+
     <!-- Contact -->
-    <section id="contact" class="my-8 lg:my-12 b-[#fcfcfc] border-b border-[#f7f7f7]">
+    <section id="contact" class="my-8 lg:my-12 bg-white border-b border-[#f7f7f7]">
       <div class="container mx-auto px-4">
         <span class="block text-center text-3xl lg:text-4xl mb-3">🙋‍♂️</span>
         <h2 class="text-center font-semibold mb-4 text-4xl">Let's Chat</h2>

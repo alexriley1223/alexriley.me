@@ -2,13 +2,13 @@
     <div class="shadow-sm rounded-b-sm rounded-br-sm border border-[#f7f7f7]">
 
         <!-- Image Row -->
-        <div class="w-full h-44" :style="{ 'background-color': backgroundHex }">
+        <div class="w-full h-52 lg:h-44" :style="{ 'background-color': backgroundHex }">
             <div class="w-7/12 h-full mx-auto pt-7">
                 <img class="w-full h-full object-cover object-top rounded-t-md rounded-tr-md" :src="image" :alt="title + ' Web Screenshot'">
             </div>
         </div>
 
-        <div class="h-96 border-t p-6 border-[#ddd] flex flex-col">
+        <div class="h-96 border-t p-6 border-[#ddd] flex flex-col overflow-auto">
             <h3 class="text-center font-semibold mb-4 uppercase text-sm">{{ title }}</h3>
             <!-- Description -->
             
@@ -17,7 +17,7 @@
             </div>
 
             <!-- Skills -->
-            <p class="text-xs text-gray-400">Skills: {{ skills.join(', ') }}</p>
+            <p class="text-xs text-gray-400 pt-4">Skills: {{ skills.join(', ') }}</p>
         </div>
         
     </div>

@@ -2,22 +2,32 @@
   <main class="flex-auto">
 
     <!-- Main Hero -->
-    <section id="hero" class="relative w-full h-screen z-0">
-      <div class="flex flex-col lg:flex-row justify-center lg:justify-evenly">
-        <div class="self-center">
-          <h1 class="font-bold text-4xl lg:text-8xl">Hi. I'm Alex.</h1>
-          <p class="text-1xl lg:text-3xl">Full Stack Web Developer & Tech Tinkerer</p>
-          <p> </p>
+    <section id="hero" class="relative w-full h-screen">
+      <!-- Pseudo-Nav -->
+      <a href="https://github.com/alexriley1223" target="_blank" class="block absolute right-5 top-5">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github opacity-50 hover:opacity-100 transition-opacity" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+      </a>
+
+      <!-- Full screen hero -->
+      <div class="flex flex-col items-center justify-center h-full pb-6 md:pb-20 lg:pb-40">
+        <div class="flex items-end w-80 h-80 mb-10">
+          <img class="object-cover" src="~/assets/img/picofme.png" alt="Alex Riley Cutout Picture">
         </div>
 
-        <div class="flex items-end">
-          <img class="block w-4/5 md:w-2/5 lg:w-auto lg:h-4/5 mx-auto lg:mx-0 lg:ml-auto" src="~/assets/img/alexriley_cutout_trans.png" alt="Alex Riley Cutout Picture">
+        <div class="text-center px-4 lg:px-0">
+          <h1 class="font-bold text-4xl lg:text-6xl text-center mb-2">Hi. I'm Alex.</h1>
+          <p class="text-xl lg:text-2xl">Full Stack Web Developer & Tech Tinkerer</p>
         </div>
-      </div> 
+
+      </div>
+
+      <div class="scroll-down absolute right-[calc(50%+12px)] left-[calc(50%-12px)] bottom-10"></div>
     </section>
 
     <!-- Projects -->
-    <section id="projects" class="bg-white py-12">
+    <section id="projects" class="bg-white py-12" data-aos="fade-up" data-aos-delay="300">
 
       <div class="container mx-auto px-4 md:px-2 lg:px-0">
         <h2 class="text-center font-semibold mb-4 text-4xl">Professional Projects</h2>
@@ -91,7 +101,7 @@
 
     </section>
 
-    <section class="bg-white border-b border-[#f7f7f7] py-12">
+    <section class="bg-white border-b border-[#f7f7f7] py-12" data-aos="fade-up" data-aos-delay="300">
       <div class="container mx-auto px-4 md:px-2 lg:px-0">
         <h2 class="text-center font-semibold mb-4 text-4xl">Side Projects</h2>
         <p class="text-center max-w-xl mx-auto">Programming is my passion - in my free time I love exploring new technologies and ideas. These are available on my <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://github.com/alexriley1223" target="_blank">GitHub</a> alongside multiple others.</p>
@@ -104,7 +114,7 @@
             :image="require('~/assets/img/sites/trendyartisan.png')"
           >
             <p>
-              I developed <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://www.thetrendyartisan.com/" target="_blank">The Trendy Artisan</a> for my sister-in-law as a full-fledged e-commerce solution to transition her away from Facebook and into her own space. This includes a custom dashboard with product, category, orders, and customer management. Products are managed with a custom-built attribute system to allow for infinite product combinations to be made easy. All of her customers are satisfied and I have new features currently in development.
+              I developed <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://www.thetrendyartisan.com/" target="_blank">The Trendy Artisan</a> for my sister-in-law as a full-fledged e-commerce solution to transition her away from Facebook and into her own space. This includes a custom dashboard with product, category, orders, and customer management. Products are managed with a custom-built attribute system to allow for infinite product combinations. All of her customers are satisfied with the site and I have new features currently in development.
             </p>
           </ElementsProjectCard>
 
@@ -115,7 +125,7 @@
             :image="require('~/assets/img/sites/queue.png')"
           >
             <p>
-              <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://queue.alexriley.me/" target="_blank">The Queue</a> is a website idea that is in its third iteration that I originally came up with in college. It is a Vue SPA integrated with Sanctum for API authentication and the Spotify API for song searching and queue manipulation. It allows for users to add songs to a user's queue with the use of their party code - perfect for DJs who get multiple song requests to keep everyone satisfied.
+              <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://queue.alexriley.me/" target="_blank">The Queue</a> is a website idea that is in its third iteration that I originally came up with in college. It is a Vue SPA integrated with Sanctum for API authentication and the Spotify API for song searching and user queue manipulation. It allows for guests to add songs to a user's queue with the use of their party code - perfect for DJs who get multiple song requests to keep everyone satisfied.
             </p>
           </ElementsProjectCard>
 
@@ -126,7 +136,7 @@
             :image="require('~/assets/img/sites/bishop.png')"
           >
             <p>
-              <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://www.thetrendyartisan.com/" target="_blank">Bishop</a> is a Discord bot built in Node on top of the <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://discord.js.org/#/" target="_blank">Discord.JS</a> library. It is an asynchronous, modulated bot to handle commands, Discord events, scheduled jobs, and custom database models. It is built to my specification but is easily manipulatable. Currently, I have implemented song streaming from YouTube with full playback functionality, a points system with casino minigames and mock stocks, and a bit of integration with the League of Legends API.
+              <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://github.com/alexriley1223/bishop" target="_blank">Bishop</a> is a Discord bot built in Node on top of the <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://discord.js.org/#/" target="_blank">Discord.JS</a> library. It is an asynchronous, modulated bot to handle commands, Discord events, scheduled jobs, and custom database models. It is built to my specification but is easily manipulatable. Currently, I have implemented song streaming from YouTube with full playback functionality, a points system with casino minigames and mock stocks, and a bit of integration with the League of Legends API.
             </p>
           </ElementsProjectCard>
         </div>
@@ -134,7 +144,7 @@
     </section>
 
     <!-- What I Offer -->
-    <section class="my-8 lg:my-12 bg-[#fcfcfc] border-b border-[#f7f7f7]">
+    <section id="offer" class="my-8 pb-12 lg:my-12 bg-[#fcfcfc] border-b border-[#f7f7f7]" data-aos="fade-up" data-aos-delay="300">
       <div class="container mx-auto px-4 md:px-2 lg:px-06">
         <h2 class="text-center font-semibold mb-4 text-4xl">What I Can Do For You</h2>
 
@@ -184,19 +194,66 @@
     </section>
 
     <!-- Technical Experience -->
-    <section class="my-8 lg:my-12 bg-white border-b border-[#f7f7f7]">
-    </section>
+    <section id="experience" class="my-8 lg:my-12 pb-12 bg-white border-b border-[#f7f7f7]" data-aos="fade-up" data-aos-delay="300">
+      <div class="container mx-auto px-4">
+        <h2 class="text-center font-semibold mb-12 text-4xl">Technical Experience</h2>
 
-    <!-- About Me -->
-    <section class="my-8 lg:my-12 bg-[#fcfcfc] border-b border-[#f7f7f7]">
+        <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-4 w-full md:w-3/5 lg:w-3/4 mx-auto">
+          <div class="flex flex-col">
+            <div class="mb-4">
+              <h3 class="text-red-500 uppercase font-semibold text-xs">Education</h3>
+              <p>B.S. Web Programming and Design - Purdue University</p>
+            </div>
+
+            <div class="mb-4">
+              <h3 class="text-red-500 uppercase font-semibold text-xs">Frameworks</h3>
+              <p>Nuxt, Laravel</p>
+            </div>
+
+            <div class="mb-4">
+              <h3 class="text-red-500 uppercase font-semibold text-xs">Web Design</h3>
+              <p>Gimp, Photoshop, Figma</p>
+            </div>
+
+            <div class="mb-4 lg:mb-0">
+              <h3 class="text-red-500 uppercase font-semibold text-xs">Leadership</h3>
+              <p>Hiring, Onboarding, Code reviews</p>
+            </div>
+            
+          </div>
+
+          <div class="flex flex-col">
+
+            <div class="mb-4">
+              <h3 class="text-red-500 uppercase font-semibold text-xs">Backend</h3>
+              <p>PHP, Node.JS, WordPress</p>
+            </div>
+
+            <div class="mb-4">
+              <h3 class="text-red-500 uppercase font-semibold text-xs">Frontend</h3>
+              <p>HTML5, CSS3, Tailwind, FoundationsCSS, JS, Vue, Alpine</p>
+            </div>
+            
+            <div class="mb-4">
+              <h3 class="text-red-500 uppercase font-semibold text-xs">Unix</h3>
+              <p>Nginx, Apache, PM2, Ubuntu, ArchLinux, WSL1/2</p>
+            </div>
+
+            <div>
+              <h3 class="text-red-500 uppercase font-semibold text-xs">Collaboration</h3>
+              <p>Asana, Slack, Google Drive, Trello, Gitlab/GitHub/Gitea</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="my-8 lg:my-12 bg-white border-b border-[#f7f7f7]">
+    <section id="contact" class="my-8 lg:my-12 bg-[#fcfcfc]">
       <div class="container mx-auto px-4">
         <span class="block text-center text-3xl lg:text-4xl mb-3">🙋‍♂️</span>
-        <h2 class="text-center font-semibold mb-4 text-4xl">Let's Chat</h2>
-        <p class="text-center mb-8 w-8/12 lg:w-5/12 mx-auto">New opportunities, tech chat, or if you just want to say hello - my inbox is always open! I will always reply
+        <h4 class="text-center font-semibold mb-4 text-4xl">Let's Chat</h4>
+        <p class="text-center mb-8 w-full md:w-8/12 lg:w-5/12 mx-auto">New opportunities, tech chat, or if you just want to say hello - my inbox is always open! I will always reply
           as soon as possible.
         </p>
 
@@ -212,7 +269,14 @@
 </template>
 
 <script>
+
 export default {
   name: 'IndexPage',
+
+  mounted() {
+    setTimeout(() => {
+      document.querySelector('.layout-container').style.opacity = '1';
+    }, 750);
+  },
 }
 </script>

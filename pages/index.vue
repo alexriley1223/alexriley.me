@@ -253,14 +253,13 @@
       <div class="container mx-auto px-4">
         <span class="block text-center text-3xl lg:text-4xl mb-3">🙋‍♂️</span>
         <h4 class="text-center font-semibold mb-4 text-4xl">Let's Chat</h4>
-        <p class="text-center mb-8 w-full md:w-8/12 lg:w-5/12 mx-auto">New opportunities, tech chat, or if you just want to say hello - my inbox is always open! I will always reply
+        <p class="text-center mb-6 w-full md:w-8/12 lg:w-5/12 mx-auto">New opportunities, tech chat, or if you just want to say hello - my inbox is always open! I will always reply
           as soon as possible.
         </p>
 
         <!-- Email Button / Resume -->
-        <div class="flex justify-center space-x-4">
+        <div class="flex justify-center">
           <ElementsPrimaryButton href="mailto:alexriley1223@gmail.com" text="Email Me" />
-          <ElementsPrimaryButton href="~/assets/pdf/alexriley_resume.pdf" text="Resume" target="_blank" />
         </div>
       </div>
     </section>

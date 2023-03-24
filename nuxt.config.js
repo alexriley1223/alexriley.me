@@ -1,6 +1,7 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
+  target: 'static',
 
   // Loading bar
   /*
@@ -11,18 +12,22 @@ export default {
   */
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'alexriley.me | Alex Riley\'s Portfolio',
+    title: 'Alex Riley | Full Stack Web Developer',
     htmlAttrs: {
       lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Full Stack Web developer with a B.S from Purdue University. I specialize in Laravel, Vue, and Tailwind and deliver high quality web experiences.' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png'},
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png'},
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png'},
+      { rel: 'manifest', href: '/site.webmanifest'},
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true},
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'}

@@ -5,13 +5,13 @@
     <section id="hero" class="relative w-full h-screen">
       <!-- Full screen hero -->
       <div class="flex flex-col items-center justify-center h-full pb-6 md:pb-20 lg:pb-40 relative z-10">
-        <div class="flex items-end w-80 h-80 mb-10">
+        <div class="flex items-end w-60 h-60 md:w-72 md:h-72 lg:w-80 lg:h-80 mb-10">
           <img class="object-cover" src="~/assets/img/picofme.png" alt="Alex Riley Cutout Picture">
         </div>
 
         <div class="text-center px-4 lg:px-0">
-          <h1 class="font-bold text-4xl lg:text-6xl text-center mb-2">Hi. I'm Alex.</h1>
-          <p class="text-xl lg:text-2xl">Full Stack Web Developer & Tech Tinkerer</p>
+          <h1 class="font-bold text-4xl md:text-5xl lg:text-6xl text-center mb-2">Hi. I'm Alex.</h1>
+          <p class="text-lg md:text-xl lg:text-2xl">Full Stack Web Developer & Tech Tinkerer</p>
         </div>
 
       </div>

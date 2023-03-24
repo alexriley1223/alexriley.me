@@ -144,7 +144,7 @@
     </section>
 
     <!-- What I Offer -->
-    <section id="offer" class="my-8 pb-12 lg:my-12 bg-[#fcfcfc] border-b border-[#f7f7f7]" data-aos="fade-up" data-aos-delay="300">
+    <section id="offer" class="py-8 lg:py-12 bg-[#fcfcfc] border-b border-[#f7f7f7]" data-aos="fade-up" data-aos-delay="300">
       <div class="container mx-auto px-4 md:px-2 lg:px-06">
         <h2 class="text-center font-semibold mb-4 text-4xl">What I Can Do For You</h2>
 
@@ -194,7 +194,7 @@
     </section>
 
     <!-- Technical Experience -->
-    <section id="experience" class="my-8 lg:my-12 pb-12 bg-white border-b border-[#f7f7f7]" data-aos="fade-up" data-aos-delay="300">
+    <section id="experience" class="py-8 lg:py-12 bg-white border-b border-[#f7f7f7]" data-aos="fade-up" data-aos-delay="300">
       <div class="container mx-auto px-4">
         <h2 class="text-center font-semibold mb-12 text-4xl">Technical Experience</h2>
 
@@ -249,7 +249,7 @@
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="my-8 lg:my-12 bg-[#fcfcfc]">
+    <section id="contact" class="py-8 lg:py-12 bg-[#fcfcfc]">
       <div class="container mx-auto px-4">
         <span class="block text-center text-3xl lg:text-4xl mb-3">🙋‍♂️</span>
         <h4 class="text-center font-semibold mb-4 text-4xl">Let's Chat</h4>

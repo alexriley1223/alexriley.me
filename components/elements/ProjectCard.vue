@@ -8,7 +8,7 @@
             </div>
         </div>
 
-        <div class="h-96 border-t p-6 border-[#ddd] flex flex-col overflow-auto">
+        <div class="h-[calc(100%-13rem)] lg:h-[calc(100%-11rem)] border-t p-6 border-[#ddd] flex flex-col overflow-auto">
             <h3 class="text-center font-semibold mb-4 uppercase text-sm">{{ title }}</h3>
             <!-- Description -->
             

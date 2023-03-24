@@ -249,7 +249,7 @@
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="py-8 lg:py-12 bg-[#fcfcfc]">
+    <section id="contact" class="py-8 lg:py-12 bg-[#fcfcfc] border-b border-[#f7f7f7]">
       <div class="container mx-auto px-4">
         <span class="block text-center text-3xl lg:text-4xl mb-3">🙋‍♂️</span>
         <h4 class="text-center font-semibold mb-4 text-4xl">Let's Chat</h4>

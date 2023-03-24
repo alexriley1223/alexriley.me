@@ -4,14 +4,14 @@
     <!-- Main Hero -->
     <section id="hero" class="relative w-full h-screen">
       <!-- Pseudo-Nav -->
-      <a href="https://github.com/alexriley1223" target="_blank" class="block absolute right-5 top-5">
+      <a href="https://github.com/alexriley1223" target="_blank" class="block absolute right-5 top-5 z-10" aria-label="Link to GitHub">
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github opacity-50 hover:opacity-100 transition-opacity" viewBox="0 0 16 16">
           <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
         </svg>
       </a>
 
       <!-- Full screen hero -->
-      <div class="flex flex-col items-center justify-center h-full pb-6 md:pb-20 lg:pb-40">
+      <div class="flex flex-col items-center justify-center h-full pb-6 md:pb-20 lg:pb-40 relative z-10">
         <div class="flex items-end w-80 h-80 mb-10">
           <img class="object-cover" src="~/assets/img/picofme.png" alt="Alex Riley Cutout Picture">
         </div>
@@ -23,7 +23,7 @@
 
       </div>
 
-      <div class="scroll-down absolute right-[calc(50%+12px)] left-[calc(50%-12px)] bottom-10"></div>
+      <div class="scroll-down absolute right-[calc(50%+12px)] left-[calc(50%-12px)] bottom-10 z-10"></div>
     </section>
 
     <!-- Projects -->
@@ -42,7 +42,7 @@
             :image="require('~/assets/img/sites/loink.png')"
           >
             <p>
-              I was the lead developer on <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://loink.com/" target="_blank">Lo Ink Specialties'</a> e-commerce shop redesign. I was responsible for implementing our redesign (frontend and backend), building out the e-commerce elements with our <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://sfp.net/case-study/ef3" target="_blank">in-house CMS EF3</a>, and working with product data to support our systems.
+              I was the lead developer on <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://loink.com/" target="_blank">Lo Ink Specialties'</a> e-commerce shop redesign. I was responsible for implementing our redesign (frontend and backend), building out the e-commerce elements with our <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://sfp.net/case-study/ef3" target="_blank">in-house CMS EF3</a>, and working with product data to integrate with our systems.
             </p>
           </ElementsProjectCard>
 
@@ -53,7 +53,7 @@
             :image="require('~/assets/img/sites/bagl.png')"
           >
             <p>
-              I was the lead developer on <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://bagl.info/" target="_blank">BAGL's</a> website redesign. I was responsible for all front-end and back-end programming to meet design and functionality specification. The custom built Member Directory improved speed and ease of accessing association members as well as introducing a new organization system. I also built an Events system to cut reliance on Facebook for event management.
+              I was the lead developer on <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://bagl.info/" target="_blank">BAGL's</a> website redesign. I was responsible for all front-end and back-end programming to meet design and functionality specifications. The custom built Member Directory improved speed and ease of accessing association members as well as introducing a new organization system. I also built an Events system to cut reliance on Facebook for event management.
             </p>
           </ElementsProjectCard>
 
@@ -64,7 +64,7 @@
             :image="require('~/assets/img/sites/stallardschuh.png')"
           >
             <p>
-              I was the lead developer on <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://stallardandschuh.com/" target="_blank">Stallard and Schuh's website</a>. I was responsible for implementing our design and all front-end and back-end programming. I handled SEO to boost page scores and analytics implementation to track user journeys. I also developed a pre-launch splash page.
+              I was the lead developer on <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://stallardandschuh.com/" target="_blank">Stallard and Schuh's website</a>. I was responsible for implementing our design and all front-end and back-end programming. I handled SEO to boost page scores and implemented analytics platforms to track user journeys. I also developed a pre-launch splash page.
             </p>
           </ElementsProjectCard>
 
@@ -74,7 +74,7 @@
             :skills="['Laravel', 'Foundations CSS', 'EF3', 'Instagram API', 'Three.js', 'Animate.css']"
             :image="require('~/assets/img/sites/granduniverse.png')"
           >
-            <p>I was the lead developer on <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://www.granduniverse.org/" target="_blank">Grand Universe</a> and it's previous <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://grand-universe-splash.staging.sfp.net/" target="_blank">splash page</a>. I built out a custom Events system for users to see all events in an organized place. I built out a team management system to keep track of board members for public viewing purposes. I also experimented with Three.js and Animate.css to create playful effects to match their brand.</p>
+            <p>I was the lead developer on <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://www.granduniverse.org/" target="_blank">Grand Universe</a> and its previous <a class="font-semibold text-red-600 hover:text-red-500 transition-colors" href="https://grand-universe-splash.staging.sfp.net/" target="_blank">splash page</a>. I built out a custom Events system for users to see all events in an organized place. I built out a team management system to keep track of board members for public viewing purposes. I also experimented with Three.js and Animate.css to create playful effects to match their brand.</p>
           </ElementsProjectCard>
           
           <ElementsProjectCard

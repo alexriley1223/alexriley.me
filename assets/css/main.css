@@ -7,6 +7,7 @@ html, body, #__nuxt, #__layout {
     height: 100%;
 }
 
+/* Animated Underlines */
 .link-underline {
     position: relative;
     text-decoration: none;
@@ -29,6 +30,7 @@ a:hover::before {
     transform: scaleX(1);
 }
 
+/* Scroll-Down Arrow */
 .scroll-down {
     display: block;
     text-align: center;
@@ -44,43 +46,41 @@ a:hover::before {
     -moz-animation:    fade_move_down 4s ease-in-out infinite;
     animation:         fade_move_down 4s ease-in-out infinite;
 }
-  
-  
-  /*animated scroll arrow animation*/
-  @-webkit-keyframes fade_move_down {
-    0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
-    50%  { opacity: 1;  }
-    100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
-  }
-  @-moz-keyframes fade_move_down {
-    0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
-    50%  { opacity: 1;  }
-    100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
-  }
-  @keyframes fade_move_down {
-    0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
-    50%  { opacity: 1;  }
-    100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
-  }
+
+@-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@-moz-keyframes fade_move_down {
+  0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
 
 /* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: auto;
-    scrollbar-color: #b3b3b3 #ffffff;
-  }
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #b3b3b3 #ffffff;
+}
 
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 12px;
-  }
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
 
-  *::-webkit-scrollbar-track {
-    background: #ffffff;
-  }
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
 
-  *::-webkit-scrollbar-thumb {
-    background-color: #b3b3b3;
-    border-radius: 10px;
-    border: 3px solid #ffffff;
-  }
+*::-webkit-scrollbar-thumb {
+  background-color: #b3b3b3;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}

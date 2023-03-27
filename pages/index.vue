@@ -23,7 +23,7 @@
         </svg>
       </a>
 
-      <div class="scroll-down absolute right-[calc(50%+12px)] left-[calc(50%-12px)] bottom-10 z-10"></div>
+      <div class="scroll-down absolute right-[calc(50%+12px)] left-[calc(50%-12px)] bottom-16 md:bottom-20 lg:bottom-10 z-10"></div>
     </section>
 
     <!-- Projects -->

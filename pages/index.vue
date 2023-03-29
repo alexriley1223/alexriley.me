@@ -226,12 +226,12 @@
 
             <div class="mb-4">
               <h3 class="text-red-500 uppercase font-semibold text-xs">Backend</h3>
-              <p>PHP, Node.JS, WordPress</p>
+              <p>PHP, Node.JS, WordPress, MySQL</p>
             </div>
 
             <div class="mb-4">
               <h3 class="text-red-500 uppercase font-semibold text-xs">Frontend</h3>
-              <p>HTML5, CSS3, Tailwind, FoundationsCSS, JS, Vue, Alpine</p>
+              <p>HTML5, CSS3, SASS/SCSS, Tailwind, FoundationsCSS, JS, Vue, Alpine</p>
             </div>
             
             <div class="mb-4">

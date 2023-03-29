@@ -258,8 +258,9 @@
         </p>
 
         <!-- Email Button / Resume -->
-        <div class="flex justify-center">
+        <div class="flex justify-center space-x-6">
           <ElementsPrimaryButton href="mailto:alexriley1223@gmail.com" text="Email Me" />
+          <ElementsPrimaryButton href="AlexRileyResume.pdf" target="_blank" text="View Resume" />
         </div>
       </div>
     </section>

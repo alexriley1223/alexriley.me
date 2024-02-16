@@ -81,7 +81,7 @@
             :skills="['Laravel', 'Foundations CSS', 'EF3', 'Instagram API', 'Three.js', 'Animate.css']"
             :image="require('~/assets/img/sites/granduniverse.png')"
           >
-            <p>I was the lead developer on <a class="font-semibold text-red-600 transition-colors hover:text-red-500" href="https://www.granduniverse.org/" target="_blank">Grand Universe</a> and its previous <a class="font-semibold text-red-600 transition-colors hover:text-red-500" href="https://grand-universe-splash.staging.sfp.net/" target="_blank">splash page</a>. I built out a custom Events system for users to see all events in an organized place. I built out a team management system to keep track of board members for public viewing purposes. I also experimented with Three.js and Animate.css to create playful effects to match their brand.</p>
+            <p>I was the lead developer on <a class="font-semibold text-red-600 transition-colors hover:text-red-500" href="https://web.archive.org/web/20230528151104/https://granduniverse.org/" target="_blank">Grand Universe</a>. I built out a custom Events system for users to see all events in an organized place. I built out a team management system to keep track of board members for public viewing purposes. I also experimented with Three.js and Animate.css to create playful effects to match their brand.</p>
           </ElementsProjectCard>
           
           <ElementsProjectCard

@@ -4,12 +4,12 @@
         <!-- Image Row -->
         <div class="w-full h-52 lg:h-44" :style="{ 'background-color': backgroundHex }">
             <div class="w-7/12 h-full mx-auto pt-7">
-                <img class="w-full h-full object-cover object-top rounded-t-md rounded-tr-md" :src="image" :alt="title + ' Web Screenshot'">
+                <img class="object-cover object-top w-full h-full rounded-t-md rounded-tr-md" :src="image" :alt="title + ' Web Screenshot'">
             </div>
         </div>
 
         <div class="h-[calc(100%-13rem)] lg:h-[calc(100%-11rem)] border-t p-6 border-[#ddd] flex flex-col overflow-auto">
-            <h3 class="text-center font-semibold mb-4 uppercase text-sm">{{ title }}</h3>
+            <h3 class="mb-4 text-sm font-semibold text-center uppercase">{{ title }}</h3>
             <!-- Description -->
             
             <div class="flex-grow leading-7">
@@ -17,7 +17,7 @@
             </div>
 
             <!-- Skills -->
-            <p class="text-xs text-gray-400 pt-4">Skills: {{ skills.join(', ') }}</p>
+            <p class="pt-4 text-xs text-gray-400">{{ skills.join(', ') }}</p>
         </div>
         
     </div>
